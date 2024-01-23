@@ -5,7 +5,7 @@
 </div>
 
 ## 说明
-<strong>本库移植于[imsyy](https://github.com/imsyy)大神的 [DailyHotApi](https://github.com/imsyy/DailyHotApi) Public，如有需要请看原版</strong>
+<strong>本库移植于[imsyy](https://github.com/imsyy)大神的 [DailyHotApi](https://github.com/imsyy/DailyHotApi) Public，如有需要请看原版。</strong>
 
 ## 示例
 
