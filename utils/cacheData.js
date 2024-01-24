@@ -1,8 +1,8 @@
 const NodeCache = require("node-cache");
 
 const cache = new NodeCache({
-  stdTTL: 1800, // 缓存默认过期时间（单位秒）
-  checkperiod: 60, // 定期检查过期缓存的时间（单位秒）
+    stdTTL: 1800, // 缓存默认过期时间（单位秒）
+    checkperiod: 60, // 定期检查过期缓存的时间（单位秒）
 });
 
 /**
@@ -11,7 +11,7 @@ const cache = new NodeCache({
  * @return {Promise<any>} 数据
  */
 const get = async (key) => {
-  return cache.get(key);
+    return cache.get(key);
 };
 
 /**
@@ -22,7 +22,7 @@ const get = async (key) => {
  * @return {Promise<void>} 无返回值
  */
 const set = async (key, value, ttl = 300) => {
-  return cache.set(key, value, ttl);
+    return cache.set(key, value, ttl);
 };
 
 /**
@@ -31,11 +31,11 @@ const set = async (key, value, ttl = 300) => {
  * @return {Promise<void>} 无返回值
  */
 const del = async (key) => {
-  return cache.del(key);
+    return cache.del(key);
 };
 
 module.exports = {
-  get,
-  set,
-  del,
+    get,
+    set,
+    del,
 };
